@@ -18,6 +18,7 @@ output_csv_path = r'C:\Users\adamc\Desktop\Data Scraper Test\test.csv'
 # make sure to import io, os, pandas, requests, and beautiful soup if parsing html info
 # success variable, will stop loop in event get from url fails
 success = 0
+print('Running Script ...')
 while success == 0:
     response = requests.get(url)
     # check if url response is valid
